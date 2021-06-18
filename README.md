@@ -3,7 +3,7 @@
 ## Kitty Odometer Dataset
 
 
-The data needs to be preprocessed first.
+1. The data needs to be preprocessed first.
 2. The labelled semantic dataset will be shared and the car class needs to
 be extracted from the Lidar point cloud (as a preprocessing step).
 3. Once the data is preprocessed, it is ready to be trained. The training step
