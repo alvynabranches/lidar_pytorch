@@ -1,5 +1,8 @@
 from dataset import KittiTrainDataset
 
-data = KittiTrainDataset('/kitt_dataset')
+directory = '/kitty_dataset'
+data = KittiTrainDataset(directory)
+
+print(f'root {directory=}')
 for d in data[0]:
-    print(d)
+    [print(e) for e in d] if type(d) is list else print(d)
