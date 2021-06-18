@@ -4,5 +4,7 @@ directory = '/kitty_dataset'
 data = KittiTrainDataset(directory)
 
 print(f'root {directory=}')
-for d in data[0]:
-    [print(e) for e in d] if type(d) is list else print(d)
+
+for d in data:
+    for dt in d:
+        [print(e) for e in d] if type(dt) is list else print(dt)
